@@ -1,0 +1,333 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.logo{
+    color: white;
+}
+.gymlogo{
+    background-color: black;
+    border-radius: 100%;
+    height: 80px;
+}
+.navBar{
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    padding: 3%;
+    /* border: 1px solid black; */
+    background-color: black;
+    /* background-color: #8b0000; */
+    /* background-color: #ff0000; */
+    box-shadow: 0px 0px 10px #fff5f5;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gymlogo{
+    background-color: black;
+    border-radius: 100%;
+    height: 65px;
+}
+.gymlogo:hover{
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+}
+#navcont1 a{
+    text-decoration: none;
+    margin-left: 10px;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    /* color: black; */
+}
+#navcont1 a:hover{
+    color: red;
+    /* color: white; */
+    scroll-behavior: smooth;
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+}
+#navButton{
+    font-family: 'Bacasime Antique', serif;
+    border: 4px solid black;
+    font-weight: bold;
+    border-color: gray;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
+    width:100%;
+}
+#navButton:hover{
+    background-color: white;
+    color: red;
+    scale: 1.2;
+}
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    /* color: #fff; */
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  .wave:hover span {
+    position: relative;
+    display: inline-block;
+    /* color: #fff; */
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+  }
+  @keyframes wave {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+.cancel{
+    display: none;
+}
+#hamburger:focus .ham{
+    display: none;
+}
+#hamburger:focus .cancel{
+    display: block;
+    color: red;
+}
+.ham .cancel:focus{
+    display: block;
+}
+.dropdown-ul{
+    height: 40vh;
+}
+.dropdownButton{
+    margin-bottom: 20%;
+    width: 100%;
+    background-color: red;
+}
+.dropdownButton a{
+    text-decoration: none;
+    color: black;
+}
+.anav{
+    padding: 0;
+    /* border: 1px solid red; */
+    background-color: white;
+    height: 25vh;
+    margin-top: 1%;
+}
+.aanav{
+    padding: 0;
+    /* border: 1px solid #b20506; */
+    border-radius: 8px;
+    height: 80%;
+    position: relative;
+    background-color: #b20506;
+}
+.subanav{
+    /* border: 1px solid red; */
+    padding: 0;
+    border-radius: 8px;
+    background-color: #f60c01;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.location{
+    width: 8%;
+}
+.area{
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+
+    
+   
+}
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 6s;
+}
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 9s;
+}
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 10s;
+}
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 10s;
+}
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 7s;
+}
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+#heroSection{
+    /* border: 2px solid black; */
+    padding: 0;
+    /* background-color: red; */
+    height: 80.28vh;
+    margin-bottom: 1%;
+}
+.tt img{
+    height: 80vh;
+    /* min-width: 100%;
+    object-fit: fill; */
+}
+.motivation{
+    position: relative;
+    /* display: inline-block; */
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+}
+.prices{
+    height: 40vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+.prize{
+    width: 20%;
+    height: 40vh;
+    border: 2px solid red;
+    background-color: brown;
+}
+.footer1{
+    background-color: rgba(0, 0, 0, 0.322);
+    height: 20vh;
+}
+.footer{
+    border: 1px solid red;
+    background-color: #38444d;
+    height: 60vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
