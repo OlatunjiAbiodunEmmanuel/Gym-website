@@ -329,18 +329,18 @@ body{
 
 .prices{
     height: 40vh;
-    background-color: rgb(18, 180, 225);
+    background-color: #9e9d99b5;
     display: flex;
     justify-content: space-around;
 }
 .prize{
     width: 20%;
     height: 40vh;
-    border: 2px solid red;
-    background-color: brown;
+    border: 2px solid  #2a2c2b;
+    background-color: #2a2c2b;
 }
 .footer1{
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(12, 91, 209, 0.872);
     height: 20vh;
 }
 .footer{
@@ -350,12 +350,60 @@ body{
 }
 
 
+.familyContainer:hover .familyImage{
+    display: none;
+}
+
+.familyContent{
+    display: none;
+}
+
+.familyContainer:hover .familyContent{
+    display: block;
+}
 
 
 
 
+.starterContainer:hover .starterImage{
+    display: none;
+}
+
+.starterContent{
+    display: none;
+}
+
+.starterContainer:hover .starterContent{
+    display: block;
+}
 
 
+
+.primeContainer:hover .primeImage{
+    display: none;
+}
+
+.primeContent{
+    display: none;
+}
+
+.primeContainer:hover .primeContent{
+    display: block;
+}
+
+
+
+.royalContainer:hover .royalImage{
+    display: none;
+}
+
+.royalContent{
+    display: none;
+}
+
+.royalContainer:hover .royalContent{
+    display: block;
+}
 
 
 
