@@ -329,7 +329,7 @@ body{
 
 .prices{
     height: 40vh;
-    background-color: aqua;
+    background-color: rgb(18, 180, 225);
     display: flex;
     justify-content: space-around;
 }
