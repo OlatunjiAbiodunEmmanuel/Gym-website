@@ -351,7 +351,7 @@ body{
 
 
 .familyContainer:hover .familyImage{
-    display: none;
+    opacity: 0.5;
 }
 
 .familyContent{
