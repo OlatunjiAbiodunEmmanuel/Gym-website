@@ -366,7 +366,7 @@ body{
 
 
 .starterContainer:hover .starterImage{
-    display: none;
+    opacity: 0.5;
 }
 
 .starterContent{
@@ -380,7 +380,7 @@ body{
 
 
 .primeContainer:hover .primeImage{
-    display: none;
+    opacity: 0.5;
 }
 
 .primeContent{
@@ -394,7 +394,7 @@ body{
 
 
 .royalContainer:hover .royalImage{
-    display: none;
+    opacity: 0.5;
 }
 
 .royalContent{
