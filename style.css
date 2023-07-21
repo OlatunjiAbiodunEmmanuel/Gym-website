@@ -341,7 +341,8 @@ body{
 }
 .footer1{
     background-color: rgba(12, 91, 209, 0.872);
-    height: 20vh;
+    height: 5vh;
+    
 }
 .footer{
     border: 1px solid red;
