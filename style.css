@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 body{
-    /* background-color: white; */
     background: conic-gradient(at top right, lightcyan, lightblue);
 }
 .logo{
@@ -22,9 +21,7 @@ body{
     /* border: 1px solid black; */
     background-color: rgb(0, 0, 0);
     background:conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
-        /* opacity: 0.5; */
-    /* background-color: #8b0000; */
-    /* background-color: #ff0000; */
+    background: linear-gradient(to left, #01063d, black);
     box-shadow: 0px 0px 10px #fff5f5;
     height: 10vh;
     display: flex;
@@ -38,7 +35,7 @@ body{
 }
 .gymlogo:hover{
     position: relative;
-    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    -webkit-box-reflect: below -20px linear-gradient(transparent,rgba(0,0,0,.2));
 }
 #navcont1 a{
     text-decoration: none;
@@ -47,11 +44,9 @@ body{
     font-weight: bold;
     font-size: large;
     color: white;
-    /* color: black; */
 }
 #navcont1 a:hover{
     color: red;
-    /* color: white; */
     scroll-behavior: smooth;
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
@@ -62,8 +57,7 @@ body{
     font-weight: bold;
     border-color: gray;
     color: white;
-    /* background-color: black; */
-    background:conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
+    background: linear-gradient(to left,black,#01063d);
     border-radius: 8px;
     padding: 10px;
     width:100%;
