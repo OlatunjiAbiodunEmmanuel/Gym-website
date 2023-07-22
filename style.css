@@ -336,8 +336,11 @@ body{
     margin-bottom: 1%;
 }
 .prize{
-    padding: 0;
+    /* padding: 0; */
     border-radius: 8px;
+    margin-top: 1%;
+    width: 25rem;
+    /* width: 80%; */
     border: 2px solid  white;
     background-color: #2a2c2b;
 }
