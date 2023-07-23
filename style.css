@@ -299,6 +299,10 @@ footer1{
     margin: 20px;
     
 }
+.servix a{
+    text-decoration: none;
+    color: #fff; 
+}
 .work-hours{
     color: #fff;
     margin: 20px;
