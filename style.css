@@ -312,6 +312,10 @@ footer1{
     color: #fff;
     margin: 20px;
 }
+.contact p a{
+    text-decoration: none;
+    color: #fff;
+}
 form h5{
     color: #93b3c9;
     margin: 20px;
@@ -418,6 +422,13 @@ color: #93b3c9;
 #entry{
     color: #c50d04;
     font-size: 40px;
+}
+#copy-r{
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to left, #01063d, black);
+    font-size: 10px;
+    padding-bottom: 50px;
 }
 
 
